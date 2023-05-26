@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stopwatch and Birthday Countdown</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Stopwatch</h1>
+    <div id="display">00:00:00</div>
+    <div id="controls">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="lap">Lap</button>
+      <button id="reset">Reset</button>
+    </div>
+    <ul id="laps"></ul>
+  </div>
+
+  <div class="container">
+    <h1>Birthday Countdown</h1>
+    <form id="birthday-form">
+      <label for="birthday-input">Enter Your Date of Birth:</label>
+      <input type="date" id="birthday-input" required>
+      <button type="submit">Start Countdown</button>
+    </form>
+    <div id="birthday-display">00:00:00</div>
+  </div>
+
+  <script src="stopwatch.js"></script>
+  <script src="countdown.js"></script>
+</body>
+</html>
